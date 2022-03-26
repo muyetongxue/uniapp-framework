@@ -1,0 +1,26 @@
+{
+  "appid": {
+    "mp-weixin": "wx7fa88ca5b22367a1"
+  },
+  "baseURL": "https://dzjkk.jkxtapp.com",
+  "staticURL": "https://dzjkk.jkxtapp.com/healthcard",
+  "baseColor": "#0E75FC",
+  "timeout": 60000,
+  "tokenParams": {
+    "username": "xtsmall",
+    "password": "uqj0i0/LGqkyXncvO4Beug",
+    "client_id": "xtytj",
+    "client_secret": "QkvBcyPsOmyNyj6b12cr4Q=="
+  },
+  "bodyParams": {
+    "req_time": "",
+    "req_type": "PTYTwGmN5uibFZxtE32Rdg==",
+    "req_data": {
+      "deviceid": "3023932",
+      "channel": "XY9005",
+      "version": "V2.0.1",
+      "vercode": "429004",
+      "orgcode": "429004000001"
+    }
+  }
+}

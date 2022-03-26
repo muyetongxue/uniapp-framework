@@ -1,0 +1,127 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#0E75FC",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "",
+        "onReachBottomDistance": 250,
+        "usingComponents": {
+        }
+      }
+    },
+    {
+      "path": "pages/my/my",
+      "style": {
+        "navigationStyle": "custom",
+        "usingComponents": {
+        }
+      }
+    },
+    {
+      "path": "pages/test1/test1",
+      "style": {
+        "navigationBarBackgroundColor": "#0E75FC",
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "测试页面1",
+        "usingComponents": {}
+      }
+    },
+    {
+      "path": "pages/test2/test2",
+      "style": {
+        "navigationBarBackgroundColor": "#0E75FC",
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "测试页面2",
+        "usingComponents": {}
+      }
+    },
+    {
+      "path": "pages/webview/webview"
+    }
+  ],
+  "tabBar": {
+    "color": "#9FA4AB",
+    "selectedColor": "#0E75FC",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "fontSize": "12px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/Home.png",
+        "selectedIconPath": "static/tabbar/HomeSelected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/test1/test1",
+        "iconPath": "static/tabbar/Information.png",
+        "selectedIconPath": "static/tabbar/InformationSelected.png",
+        "text": "信息"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/tabbar/PersonalCenter.png",
+        "selectedIconPath": "static/tabbar/PersonalCenterSelected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "subPackages": [
+    {
+      "root": "error",
+      "pages": [
+        {
+          "path": "error",
+          "style": {
+            "navigationBarBackgroundColor": "#0E75FC",
+            "navigationBarTextStyle": "white",
+            "navigationBarTitleText": "网络连接错误",
+            "usingComponents": {}
+          }
+        }
+      ]
+    },
+    {
+      "root": "test",
+      "pages": [
+        {
+          "path": "test",
+          "style": {
+            "navigationBarBackgroundColor": "#0E75FC",
+            "navigationBarTextStyle": "white",
+            "navigationBarTitleText": "测试页面",
+            "usingComponents": {}
+          }
+        }
+      ]
+    }
+  ],
+  "globalStyle": {
+    "navigationStyle": "default",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "backgroundColor": "#FFFFFF",
+    "mp-alipay": {},
+    "app-plus": {},
+    "mp-weixin": {},
+    "usingComponents": {}
+  },
+  "preloadRule": {},
+  "easycom": {
+    "autoscan": true
+  },
+  "condition": {
+    "current": 0,
+    "list": [
+      {
+        "name": "",
+        "path": "",
+        "query": ""
+      }
+    ]
+  }
+}
